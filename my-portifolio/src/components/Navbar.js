@@ -12,7 +12,7 @@ function Navbar() {
             <img
               src={ logo }
               alt="Jake's Logo"
-              style={ { width: '130px' } }
+              style={ { width: '150px' } }
             />
           </Link>
         </li>

@@ -6,6 +6,8 @@ const data = [{
       Atualmente estou cursando a Trybe,
       onde aprendi muito sobre o desenvolvimento web englobando tanto front-end
       quanto back-end com vários projetos ao longo do curso.`,
+  bio2: `E ahh, também possuo um projeto de
+         música eletrônica chamado Psyhut.`,
   avatar: avatarIMG,
 }];
 
