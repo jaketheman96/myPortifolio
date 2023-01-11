@@ -4,7 +4,7 @@ import TrybeProjects from '../datas/projects';
 
 function Projects() {
   return (
-    <div>
+    <div className="projects">
       {TrybeProjects.map((project, index) => (
         <ProjectsCard
           key={ index }

@@ -1,5 +1,5 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import { Link } from 'react-scroll';
 import logo from '../images/logo.png';
 import '../style/Navbar.style.css';
 
@@ -8,7 +8,7 @@ function Navbar() {
     <header className="navbar">
       <ul className="navbar-list">
         <li>
-          <Link to="/">
+          <Link to="home" smooth="true" duration="500">
             <img
               src={ logo }
               alt="Jake's Logo"
@@ -16,10 +16,10 @@ function Navbar() {
             />
           </Link>
         </li>
-        <li><Link to="/">Home</Link></li>
-        <li><Link to="/projects">Projetos</Link></li>
-        <li><Link to="/tecnologies">Tecnologias</Link></li>
-        <li><Link to="/contact">Contato</Link></li>
+        <li><Link to="home" smooth="true" duration="500">Home</Link></li>
+        <li><Link to="projects" smooth="true" duration="500">Projetos</Link></li>
+        <li><Link to="skills" smooth="true" duration="500">Tecnologias</Link></li>
+        <li><Link to="contact" smooth="true" duration="500">Contato</Link></li>
       </ul>
     </header>
   );
