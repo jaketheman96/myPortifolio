@@ -1,11 +1,9 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import myDatas from '../datas/myDatas';
 
 function Home() {
   return (
     <div className="home">
-      <Navbar />
       {myDatas.map((data, index) => (
         <div key={ index }>
           <p>{data.bio}</p>
