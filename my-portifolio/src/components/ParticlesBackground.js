@@ -5,13 +5,10 @@ import particlesConfig from './config/particles-config';
 
 function ParticlesBackground() {
   const particlesInit = useCallback(async (engine) => {
-    console.log(engine);
     await loadFull(engine);
   }, []);
 
-  const particlesLoaded = useCallback((container) => {
-    console.log(container);
-  }, []);
+  const particlesLoaded = useCallback((container) => container, []);
 
   return (
     <Particles
