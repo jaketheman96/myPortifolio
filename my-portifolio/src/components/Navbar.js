@@ -1,8 +1,8 @@
 import React from 'react';
 import { Link } from 'react-scroll';
 import logo from '../images/logo.png';
-import Menus from './Menus';
-import ToggleMenus from './ToggleMenus';
+import Menu from './Menu';
+import ToggleMenu from './ToggleMenu';
 import '../style/Navbar.style.css';
 
 function Navbar() {
@@ -16,10 +16,10 @@ function Navbar() {
         />
       </Link>
       <div className="navbar-list">
-        <Menus />
+        <Menu />
       </div>
       <div className="toggle-menu">
-        <ToggleMenus />
+        <ToggleMenu />
       </div>
     </div>
   );

@@ -1,17 +1,17 @@
 import React, { useEffect, useState } from 'react';
-import Menus from './Menus';
+import Menu from './Menu';
 import navbarIcon from '../images/navigation.png';
 import removeIcon from '../images/remove.png';
 
-function ToggleMenus() {
-  const [toggleMenus, setToggleMenus] = useState(false);
+function ToggleMenu() {
+  const [toggleMenu, setToggleMenu] = useState(false);
 
   useEffect(() => {
-    const defaultToggle = () => setToggleMenus(false);
+    const defaultToggle = () => setToggleMenu(false);
     defaultToggle();
   }, []);
 
-  const handleClick = () => setToggleMenus(!toggleMenus);
+  const handleClick = () => setToggleMenu(!toggleMenu);
 
   return (
     <>
@@ -25,7 +25,7 @@ function ToggleMenus() {
           style={ { width: '30px' } }
         />
       </button>
-      {toggleMenus && (
+      {toggleMenu && (
         <div className="menu-from-toggle">
           <button
             type="button"
@@ -37,7 +37,7 @@ function ToggleMenus() {
               style={ { width: '15px' } }
             />
           </button>
-          <Menus
+          <Menu
             handleClick={ handleClick }
           />
         </div>
@@ -46,4 +46,4 @@ function ToggleMenus() {
   );
 }
 
-export default ToggleMenus;
+export default ToggleMenu;
