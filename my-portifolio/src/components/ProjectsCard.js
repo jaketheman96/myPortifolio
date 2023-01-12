@@ -13,7 +13,11 @@ function ProjectsCard({ name, image, repo, deploy }) {
   return (
     <div>
       <p>{name}</p>
-      <img src={ image } alt={ `${name} logo` } />
+      <img
+        src={ image }
+        alt={ `${name} logo` }
+        style={ { width: '130px' } }
+      />
       <button
         type="button"
         name="repository"
