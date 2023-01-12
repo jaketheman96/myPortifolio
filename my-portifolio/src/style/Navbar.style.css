@@ -1,6 +1,7 @@
 .navbar {
-  background-color: #252525;
-  height: 4em;
+  background-color: rgb(32, 11, 11, 0.8);
+  box-shadow: 5px 0 9px black;
+  height: 3.5em;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -56,7 +57,7 @@
   .menu-from-toggle {
     position: absolute;
     height: 100vh;
-    background-color: #252525;
+    background-color: #1c0000;
     top: 0px;
     right: 0px;
     bottom: 0px;

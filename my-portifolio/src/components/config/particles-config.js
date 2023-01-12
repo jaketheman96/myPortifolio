@@ -5,7 +5,7 @@ export default {
   autoPlay: true,
   background: {
     color: {
-      value: '#252525',
+      value: '#1c0000',
     },
     image: '',
     position: '',
