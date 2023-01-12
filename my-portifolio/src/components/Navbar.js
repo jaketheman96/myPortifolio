@@ -5,14 +5,14 @@ import '../style/Navbar.style.css';
 
 function Navbar() {
   return (
-    <header className="navbar">
+    <div className="navbar">
       <ul className="navbar-list">
         <li>
           <Link to="home" smooth="true">
             <img
               src={ logo }
               alt="Jake's Logo"
-              style={ { width: '150px' } }
+              style={ { width: '100px' } }
             />
           </Link>
         </li>
@@ -21,7 +21,7 @@ function Navbar() {
         <li><Link to="skills" smooth="true">Skills</Link></li>
         <li><Link to="contact" smooth="true">Contact</Link></li>
       </ul>
-    </header>
+    </div>
   );
 }
 

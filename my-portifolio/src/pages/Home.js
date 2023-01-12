@@ -1,5 +1,6 @@
 import React from 'react';
 import myDatas from '../datas/infos';
+import '../style/Home.style.css';
 
 function Home() {
   return (

@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import linkedinIcon from '../images/linkedin.png';
 import whatsappIcon from '../images/whatsapp.png';
+import '../style/Contact.style.css';
 
 function Contact() {
   const linkedinUrl = 'https://www.linkedin.com/in/jake-chien/';
@@ -53,7 +54,9 @@ function Contact() {
           name="whatsapp"
         />
       </button>
-      <div style={ { height: '50px' } }>
+      <div
+        className="copied"
+      >
         {isCopied && <p>Number copied!</p>}
       </div>
     </div>
