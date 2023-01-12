@@ -1,21 +1,92 @@
 .home {
-  margin: 4em 0 0 0;
+  display: flex;
+  height: 100vh;
 }
 
-.home img{
-  width: 20em;
+.home img {
+  margin: auto 0;
+}
+
+.home-infos {
+  text-align: center;
+  font-family: 'Fira Code', monospace;
+}
+
+.home-infos h1 {
+  color: rgb(185, 174, 174);
+  font-size: 45px;
 }
 
 @media only screen and (max-width: 600px) {
+
+  .home-infos {
+    margin: auto;
+  }
+
   .home img{
-    width: 15em;
+    display: none;
+  }
+
+  .home-infos h1 {
+    font-size: 25px;
+  }
+
+  .home-infos p {
+    font-size: 10px;
   }
 }
 
-@media only screen and (min-width: 600px) {}
+@media only screen and (min-width: 600px) {
+  .home-infos {
+    margin: auto;
+  }
 
-@media only screen and (min-width: 768px) {}
+  .home img{
+    width: 15em;
+    height: 20em;
+  }
 
-@media only screen and (min-width: 992px) {}
+  .home-infos h1 {
+    font-size: 30px;
+  }
 
-@media only screen and (min-width: 1200px) {}
+  .home-infos p {
+    font-size: 15px;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+
+  .home img {
+    margin-right: 5em;
+    width: 20em;
+    height: 25em;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .home img {
+    margin-right: 10em;
+  }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+  .home img {
+    margin-right: 17em;
+    width: 25em;
+    height: 30em;
+  }
+
+  .home-infos h1 {
+    font-size: 35px;
+  }
+
+  .home-infos p {
+    font-size: 20px;
+  }
+
+}

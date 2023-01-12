@@ -71,10 +71,15 @@
   }
 
   .menu-from-toggle ul li {
-    margin: 2em 0;
+    margin: 1em 0;
+    font-size: 28px;
+    font-weight: 550;
   }
 
   .menu-from-toggle button {
-    margin: 22px 0 0 90%;
+    position: absolute;
+    top: 2.5%;
+    left: 91vw;
   }
+
 }

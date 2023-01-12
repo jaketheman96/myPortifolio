@@ -1,20 +1,28 @@
 import React from 'react';
-import myDatas from '../datas/infos';
+import { Typewriter } from 'react-simple-typewriter';
+import data from '../datas/infos';
 import '../style/Home.style.css';
 
 function Home() {
   return (
     <div className="home">
-      {myDatas.map((data, index) => (
-        <div key={ index }>
-          <p>{data.bio}</p>
-          <p>{data.bio2}</p>
-          <img
-            src={ data.avatar }
-            alt="Jake Avatar"
+      <div className="home-infos">
+        <h1>
+          <Typewriter
+            words={ [data.welcome] }
+            loop={ 1 }
+            typeSpeed={ 50 }
+            deleteSpeed={ 50 }
+            delaySpeed={ 1500 }
           />
-        </div>
-      ))}
+        </h1>
+        <h1>{data.stack}</h1>
+        <p>{data.aditional}</p>
+      </div>
+      <img
+        src={ data.avatar }
+        alt="Jake Avatar"
+      />
     </div>
   );
 }
