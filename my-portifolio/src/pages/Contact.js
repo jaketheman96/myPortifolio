@@ -32,7 +32,6 @@ function Contact() {
     <div className="contact">
       <button
         type="button"
-        style={ { all: 'unset' } }
         onClick={ handleClick }
       >
         <img
@@ -44,7 +43,6 @@ function Contact() {
       </button>
       <button
         type="button"
-        style={ { all: 'unset' } }
         onClick={ handleClick }
       >
         <img

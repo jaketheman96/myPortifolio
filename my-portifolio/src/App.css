@@ -1,7 +1,17 @@
 .App {
-  height: 100vh;
+  height: 100%;
 }
 
 p {
   color: white;
+}
+
+a {
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+}
+
+button {
+  all: unset;
 }
