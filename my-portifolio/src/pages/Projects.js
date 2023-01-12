@@ -1,6 +1,6 @@
 import React from 'react';
 import ProjectsCard from '../components/ProjectsCard';
-import TrybeProjects from '../datas/projects';
+import TrybeProjects from '../infos/projects';
 
 function Projects() {
   return (

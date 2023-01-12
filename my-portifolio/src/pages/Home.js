@@ -1,6 +1,6 @@
 import React from 'react';
 import { Typewriter } from 'react-simple-typewriter';
-import data from '../datas/infos';
+import data from '../infos/home';
 import '../style/Home.style.css';
 
 function Home() {

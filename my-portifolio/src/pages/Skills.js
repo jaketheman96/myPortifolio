@@ -1,6 +1,6 @@
 import React from 'react';
 import SkillsCard from '../components/SkillsCard';
-import skills from '../datas/skills';
+import skills from '../infos/skills';
 
 function Skills() {
   return (
