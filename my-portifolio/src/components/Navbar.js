@@ -8,7 +8,7 @@ function Navbar() {
     <header className="navbar">
       <ul className="navbar-list">
         <li>
-          <Link to="home" smooth="true" duration="500">
+          <Link to="home" smooth="true">
             <img
               src={ logo }
               alt="Jake's Logo"
@@ -16,10 +16,10 @@ function Navbar() {
             />
           </Link>
         </li>
-        <li><Link to="home" smooth="true" duration="500">Home</Link></li>
-        <li><Link to="projects" smooth="true" duration="500">Projects</Link></li>
-        <li><Link to="skills" smooth="true" duration="500">Skills</Link></li>
-        <li><Link to="contact" smooth="true" duration="500">Contact</Link></li>
+        <li><Link to="home" smooth="true">Home</Link></li>
+        <li><Link to="projects" smooth="true">Projects</Link></li>
+        <li><Link to="skills" smooth="true">Skills</Link></li>
+        <li><Link to="contact" smooth="true">Contact</Link></li>
       </ul>
     </header>
   );
