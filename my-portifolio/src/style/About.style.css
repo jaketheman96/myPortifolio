@@ -1,8 +1,8 @@
 .about {
   height: 100vh;
-  text-align: center;
   display: flex;
   flex-direction: column;
+  text-align: center;
   justify-content: center;
 }
 
@@ -19,9 +19,31 @@
   margin: 0 auto;
 }
 
+.about-paragraphs p {
+  margin: 0;
+  padding: 0.8em;
+}
+
 @media only screen and (max-width: 768px) {
   .about-paragraphs {
     flex-direction: column;
     font-size: 15px;
+  }
+  .about h1 {
+    padding: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+
+  .about h1 {
+    padding: 0 2em 0 0;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  .about h1 {
+    padding: 0 3em 0 0;
   }
 }

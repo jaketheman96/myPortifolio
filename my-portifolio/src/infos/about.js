@@ -9,5 +9,5 @@ export default {
   Sou apaixonado por tecnologia desde o dia que ganhei meu primeiro computador e agora
   sou um desenvolvedor Full Stack.
   Também tenho um projeto de Psytrance (Psyhut) com um amigo meu
-  e pode ser encontrado no google se quiser.`,
+  e pode ser encontrado no google.`,
 };
