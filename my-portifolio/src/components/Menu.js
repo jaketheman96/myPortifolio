@@ -9,6 +9,9 @@ function Menus({ handleClick }) {
         <Link to="home" smooth="true" onClick={ handleClick }>Home</Link>
       </li>
       <li>
+        <Link to="about" smooth="true" onClick={ handleClick }>About</Link>
+      </li>
+      <li>
         <Link to="projects" smooth="true" onClick={ handleClick }>Projects</Link>
       </li>
       <li>
