@@ -15,7 +15,7 @@ function ProjectsCard({ name, image, repo, deploy }) {
       <img
         src={ image }
         alt={ `${name} logo` }
-        style={ { width: '100%' } }
+        style={ { width: '90%' } }
       />
       <p>{name}</p>
       <div className="buttons">
