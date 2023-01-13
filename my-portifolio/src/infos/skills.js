@@ -29,7 +29,7 @@ export default [
     image: nodeIcon,
   },
   {
-    name: 'Express',
+    name: 'Express.js',
     image: expressIcon,
   },
   {

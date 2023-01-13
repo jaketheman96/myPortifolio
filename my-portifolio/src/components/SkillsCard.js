@@ -8,7 +8,7 @@ function SkillsCard({ name, image }) {
       <img
         src={ image }
         alt={ `${name} logo` }
-        style={ { width: '100px' } }
+        style={ { width: '90%' } }
       />
     </div>
   );
