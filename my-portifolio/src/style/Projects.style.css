@@ -1,0 +1,179 @@
+.projects {
+  min-height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 2em;
+  padding: 0 15em;
+}
+
+.all-cards { 
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+}
+
+.projects h1 {
+  color: rgb(185, 174, 174);
+  margin: 0;
+  font-family: 'Fira Code', monospace;
+  text-decoration: underline;
+}
+
+.project-card {
+  width: 20em;
+  border-radius: 10px;
+  background-color: rgba(168, 151, 151, 0.5);
+  box-shadow: 5px 5px 20px black;
+  text-align: center;
+}
+
+.project-card img {
+  width: 100%;
+}
+
+.project-card p {
+  margin: 0;
+  font-size: 18px;
+  color: rgb(185, 174, 174);
+}
+
+.buttons {
+  display: flex;
+  height: 50px;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.buttons button {
+  margin: 0;
+  cursor: pointer;
+  border: solid rgb(185, 174, 174) 2.5px;
+  color: rgb(185, 174, 174);
+  border-radius: 5px;
+  font-size: 14px;
+  height: 20px;
+}
+
+.buttons p {
+  margin: 0;
+}
+
+@media (hover: hover) {
+
+  .project-card .buttons {
+    visibility: hidden;
+  }
+
+  .project-card:hover {
+    transform: scale(1.1);
+    transition: 0.5s all ease;
+  }
+  
+  .project-card:hover .buttons {
+    transform: scaleY(1);
+    transition: 0.5s ease;
+    background-color: rgba(24, 1, 1, 0.8);
+    visibility: visible;
+  }
+  
+  .buttons button:hover {
+    color: rgb(226, 226, 226);
+    border-color: rgb(226, 226, 226);
+  }
+}
+
+@media (hover: none) {
+  
+  .project-card .buttons {
+    visibility: visible;
+  }
+    
+}
+
+@media only screen and (max-width: 600px) {
+
+  .projects h1 {
+    font-size: 23px;
+  }
+
+  .projects {
+    padding: 5em 7em;
+  }
+
+  .project-card {
+    width: 15em;
+  }
+
+}
+
+@media only screen and (min-width: 600px) {
+
+  .projects {
+    padding: 5em 10em;
+  }
+
+}
+
+@media only screen and (min-width: 768px) {
+
+  .projects {
+    padding: 5em 0 0 0;
+  }
+
+  .all-cards {
+  padding: 0 5em;
+  }
+
+  .project-card {
+    width: 17em;
+  }
+
+}
+
+@media only screen and (min-width: 992px) {
+  
+  .all-cards {
+    text-align: center;
+    padding: 0 5em;
+  }
+
+  .project-card {
+    width: 15em;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+
+  .all-cards {
+    padding: 0 5em;
+  }
+
+}
+
+@media only screen and (min-width: 1486px) {
+
+  .all-cards {
+    padding: 0 10em;
+  }
+
+}
+
+@media only screen and (min-width: 1600px) {
+
+  .all-cards {
+    padding: 0 15em;
+  }
+
+}
+
+@media only screen and (min-width: 1920px) {
+
+  .all-cards {
+    padding: 0 20em;
+  }
+
+}

@@ -8,6 +8,7 @@
 
 .about h1 {
   color: rgb(185, 174, 174);
+  font-family: 'Fira Code', monospace;
   text-decoration: underline;
   font-size: 30px;
 }

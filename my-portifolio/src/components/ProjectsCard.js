@@ -11,29 +11,31 @@ function ProjectsCard({ name, image, repo, deploy }) {
   };
 
   return (
-    <div>
-      <p>{name}</p>
+    <div className="project-card">
       <img
         src={ image }
         alt={ `${name} logo` }
-        style={ { width: '130px' } }
+        style={ { width: '100%' } }
       />
-      <button
-        type="button"
-        name="repository"
-        onClick={ handleClick }
-      >
-        Repo
-      </button>
-      {deploy && (
+      <p>{name}</p>
+      <div className="buttons">
         <button
           type="button"
-          name="deploy"
+          name="repository"
           onClick={ handleClick }
         >
-          Demo
+          Repo
         </button>
-      )}
+        {deploy && (
+          <button
+            type="button"
+            name="deploy"
+            onClick={ handleClick }
+          >
+            Demo
+          </button>
+        )}
+      </div>
     </div>
   );
 }

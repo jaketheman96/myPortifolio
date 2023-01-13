@@ -16,4 +16,6 @@ a {
 
 button {
   all: unset;
+  font-family: 'Fira Code', monospace;
+  color: white;
 }
