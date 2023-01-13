@@ -10,7 +10,7 @@ function Home() {
         <h1>
           <Typewriter
             words={ [data.welcome] }
-            loop={ 1 }
+            loop={ 2 }
             typeSpeed={ 50 }
             deleteSpeed={ 50 }
             delaySpeed={ 1500 }
