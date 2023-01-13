@@ -1,7 +1,43 @@
 .copied {
   height: 50px;
+  text-align: center;
 }
 
 .copied p {
+  color: rgb(185, 174, 174);
   margin: 0;
+}
+
+.contact-icons {
+  margin: auto;
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 30%;
+}
+
+.contact {
+  padding-top: 5em;
+  text-align: center;
+  margin: 0;
+}
+
+.contact p {
+  color: rgb(185, 174, 174);
+}
+
+.contact-icons button {
+  cursor: pointer;
+}
+
+.contact-icons img { 
+  width: 40px;
+}
+
+@media (hover: hover) {
+  .contact-icons img:hover {
+    width: 50px;
+    transition: 0.5s ease;
+  }
 }
