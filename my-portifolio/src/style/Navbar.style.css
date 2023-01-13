@@ -84,3 +84,20 @@
   }
 
 }
+
+@media only screen and (min-width: 768px) {
+
+  .navbar-list li {
+    padding: 5px 0.8em;
+  }
+
+}
+
+@media only screen and (min-width: 1200px) {
+  
+  .navbar-list li {
+    padding: 5px 2em;
+  }
+
+
+}
