@@ -9,5 +9,3 @@ Take your time, and have a look!
 -React.js;
 
 -CSS;
-
--Mobile First;
